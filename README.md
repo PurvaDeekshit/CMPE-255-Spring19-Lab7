@@ -6,7 +6,7 @@ I have plotted four graphs:
 3. Gaussian SVC
 4. Sigmoid SVC
 
-Each with Regularization parameter C = 1 and C = 10.
+Each with Regularization parameter C = 1 and C = 10. Polynomial and Guassian kernels are also plotted for C = 5.
 
 The plots show how decision boundaries change with a change in hyperparameters.
 
