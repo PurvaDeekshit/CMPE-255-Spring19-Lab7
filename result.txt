@@ -1,0 +1,62 @@
+Confusion_matrix_linear: 
+ [[10  0  0]
+ [ 0  9  1]
+ [ 0  0 10]]
+Classification_report_linear: 
+                  precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       1.00      0.90      0.95        10
+ Iris-virginica       0.91      1.00      0.95        10
+
+      micro avg       0.97      0.97      0.97        30
+      macro avg       0.97      0.97      0.97        30
+   weighted avg       0.97      0.97      0.97        30
+
+
+Confusion_matrix_polynomial: 
+ [[10  0  0]
+ [ 0  9  1]
+ [ 0  3  7]]
+Classification_report_polynomial: 
+                  precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       0.75      0.90      0.82        10
+ Iris-virginica       0.88      0.70      0.78        10
+
+      micro avg       0.87      0.87      0.87        30
+      macro avg       0.88      0.87      0.87        30
+   weighted avg       0.88      0.87      0.87        30
+
+
+Confusion_matrix_gaussian: 
+ [[10  0  0]
+ [ 0 10  0]
+ [ 0  0 10]]
+Classification_report_gaussian: 
+                  precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       1.00      1.00      1.00        10
+ Iris-virginica       1.00      1.00      1.00        10
+
+      micro avg       1.00      1.00      1.00        30
+      macro avg       1.00      1.00      1.00        30
+   weighted avg       1.00      1.00      1.00        30
+
+
+Confusion_matrix_sigmoid: 
+ [[10  0  0]
+ [ 0  8  2]
+ [ 0  2  8]]
+Classification_report_sigmoid: 
+                  precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       0.80      0.80      0.80        10
+ Iris-virginica       0.80      0.80      0.80        10
+
+      micro avg       0.87      0.87      0.87        30
+      macro avg       0.87      0.87      0.87        30
+   weighted avg       0.87      0.87      0.87        30
